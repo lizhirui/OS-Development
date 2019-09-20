@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BootSector-16">
+      <UniqueIdentifier>{03dca8f4-4ab3-4def-a8ab-6d446f27b6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BootSector-32">
+      <UniqueIdentifier>{9996131a-7247-4dc7-bc9d-76e95c00ef8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BootSector-32\ICH7Driver">
+      <UniqueIdentifier>{7204a64f-d144-4b56-b1b7-1744d63071f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\BootSector-16\boot.asm">
+      <Filter>BootSector-16</Filter>
+    </None>
+    <None Include="..\BootSector-16\BootLoader.asm">
+      <Filter>BootSector-16</Filter>
+    </None>
+    <None Include="..\BootSector-32\BootLoader32.asm">
+      <Filter>BootSector-32</Filter>
+    </None>
+    <None Include="..\Makefile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\build.bat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\mk.bat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\BootSector-32\view.bat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\BootSector-32\Interrupt.asm">
+      <Filter>BootSector-32</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BootSector-32\BootLoader32-main.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\Convert.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\gdt.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\idt.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\log.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\PCI.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\string.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\video.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\ICH7Driver\ICH7_USB.c">
+      <Filter>BootSector-32\ICH7Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\argctrl.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\common.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\cpu.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\Delay.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\Interrupt.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\APIC.c">
+      <Filter>BootSector-32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BootSector-32\ICH7Driver\ICH7_8259.c">
+      <Filter>BootSector-32\ICH7Driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BootSector-32\common.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\Convert.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\gdt.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\idt.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\log.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\PCI.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\string.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\video.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\ICH7Driver\ICH7_USB.h">
+      <Filter>BootSector-32\ICH7Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\argctrl.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\cpu.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\Delay.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\Interrupt.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\APIC.h">
+      <Filter>BootSector-32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BootSector-32\ICH7Driver\ICH7_8259.h">
+      <Filter>BootSector-32\ICH7Driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\BootSector-32\bootloader32.comp.log">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,58 @@
+﻿生成启动时间为 2016/3/27 23:00:29。
+     1>项目“D:\程序\项目\20160301操作系统开发\os\os\os.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "..\BootSector-32\argctrl.c" "..\BootSector-32\BootLoader32-main.c" "..\BootSector-32\common.c" "..\BootSector-32\Convert.c" "..\BootSector-32\cpu.c" "..\BootSector-32\Delay.c" "..\BootSector-32\gdt.c" "..\BootSector-32\ICH7Driver\ICH7_USB.c" "..\BootSector-32\idt.c" "..\BootSector-32\log.c" "..\BootSector-32\PCI.c" "..\BootSector-32\string.c" "..\BootSector-32\video.c"
+         video.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\video.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\video.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\string.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\video.c(152): warning C4018: “<”: 有符号/无符号不匹配
+         string.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\string.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PCI.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\pci.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\pci.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         log.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\video.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         idt.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\idt.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ICH7_USB.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\ich7driver\ich7_usb.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\pci.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\video.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         gdt.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\gdt.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Delay.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         cpu.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Convert.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\string.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         common.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.c(20): warning C4101: “x”: 未引用的局部变量
+         BootLoader32-main.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\string.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\video.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\pci.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\bootloader32-main.c(20): warning C4101: “y”: 未引用的局部变量
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\bootloader32-main.c(22): warning C4101: “j”: 未引用的局部变量
+         argctrl.c
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\common.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\gdt.c(13): error C4700: 使用了未初始化的局部变量“r”
+     1>d:\程序\项目\20160301操作系统开发\os\bootsector-32\idt.c(13): error C4700: 使用了未初始化的局部变量“r”
+     1>已完成生成项目“D:\程序\项目\20160301操作系统开发\os\os\os.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.74
